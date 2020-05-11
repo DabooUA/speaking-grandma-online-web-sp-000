@@ -1,7 +1,9 @@
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
-def speak_to_grandma
+def speak_to_grandma(string)
+  if string.lowercase
+    return "HUH?! SPEAK UP, SONNY!"
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
